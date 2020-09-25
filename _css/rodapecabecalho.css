@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 body#corpo{
     background-color: rgb(99, 199, 245);
@@ -44,12 +43,12 @@ header#cabecalho {
 
 /* rodape*/
 footer#rodape{
-    margin-top: 65px;
+    margin-top: 30px;
     margin-left: -8px;
-    margin-right: 1000px;
+    margin-right: -50px;
     padding: 10px;
     position: absolute;
-    width:1305px;
+    width:1288px;
     background-color: rgb(6, 154, 199);
     box-shadow: 10px 10px 10px 13px rgb(0, 0, 0);
 }
@@ -62,7 +61,4 @@ footer#rodape p{
 }
 footer#rodape p#datafooter{
     text-align: center;
-}
-fieldset#id {
-    margin-top: 10px;
 }

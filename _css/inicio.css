@@ -1,79 +1,22 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
 body#corpo{
-    background-color: whitesmoke;
+    background-color: rgb(99, 199, 245);
 }
 body#corpo p{   
-    text-align: center;
+    text-align: left;
     margin: 15px 15px 15px 15px;
-    font-family: 'RedRose', sans-serif;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12pt;
 }
 body#corpo h1 {
-    text-align: center;
-    font-family: calibri;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25pt;
     color: black;
 }
-/*configuração dos botoes de home, cadastro e contato;*/
-nav#menubtn{
-    display: block;
-}
-nav#btnmenu ul{
-    text-transform: uppercase; 
-    position: absolute;
-    top: 7px;
-    margin: 10px auto 10px auto;
-    left: 1000px;
-}
-nav#btnmenu li {
-    display: inline-block;
-    padding: 5px;
-    margin: 0px;
-    margin-top: -15px;
-    transition: background-color 1s;
-}
-nav#btnmenu a{
-    color: #000000;
-}
-nav#btnmenu li:hover{
-    background-color: white;
-
-}
-nav#btnmenu a:hover{
-    color: #0080ff;
-}
-/*cabeçalho*/
-header#cabecalho {
-    background-color: #1E90FF; 
-    height: 1%;
-    margin-top: 10px;
-}
-header#cabecalho a{
-    margin-top: 5px;
-}
-/* rodape*/
-footer#rodape{
-    margin: 100px 0px 10px 0px;
-    height: 3%;
-    padding: 12px;
-    position: relative;
-    width:98%;
-    background-color: rgba(30,135,255,1);
-    box-shadow: 2px 2px 2px 2px black;
-}
-footer#rodape p{
-    text-align: center;
-    color: black;
-    margin-bottom: 100px;
-    margin: 5px auto 10px auto;
-}
-footer#rodape p{
-    color: black;
-    font-family: Arial;
-}
-footer#rodape p#datafooter{
-    text-align: center;
+body#corpo h2 {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25pt;
+    color: rgb(0, 0, 0);
 }
