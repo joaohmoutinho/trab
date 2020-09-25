@@ -33,22 +33,21 @@ nav#btnmenu a:hover{
 }
 /*cabeçalho*/
 header#cabecalho {
-    background-color: rgb(6, 154, 199); 
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -8px;
-    height: 116px;
+    background-color: rgb(6, 154, 199);  
+    height: 100%;
+    width: 100%;
     box-shadow: 5px 5px 10px -1px rgb(0, 0, 0);
 }
 
 /* rodape*/
 footer#rodape{
     margin-top: 30px;
-    margin-left: -8px;
-    margin-right: -50px;
-    padding: 10px;
+    margin-left: -10px;
+    margin-bottom: -100px;
+    padding: 1px 1px 1px auto;
+    height: 50px;
+    width: 100%;
     position: absolute;
-    width:1288px;
     background-color: rgb(6, 154, 199);
     box-shadow: 10px 10px 10px 13px rgb(0, 0, 0);
 }
@@ -56,8 +55,8 @@ footer#rodape p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: right;
     color: rgb(0, 0, 0);
-    margin-bottom: 100px;
-    margin: 5px auto 10px auto;
+    margin-bottom: 98px;
+    margin: 5px 10px 10px 10px;
 }
 footer#rodape p#datafooter{
     text-align: center;

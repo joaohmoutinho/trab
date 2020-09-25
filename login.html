@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>SafeTestecadastro</title>
+    <link href="_css/cadastro.css" rel="stylesheet" type="text/css"/>
+    <link href="_css/rodapecabecalho.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body bgcolor="" id="corpo">
+    <header id="cabecalho">
+        <a href="index.html">
+            <img src="_fotos/safetestedit.jpg" alt=""/>
+        </a>
+        <div>
+            <nav id="btnmenu">
+                <ul>
+                    <strong><li><a href="index.html">Home</a></li>                    
+                    <li><a href="contato.html">Contato</a></li>  
+                    <li><a href="Tipocadastro.html">Cadastro</a></li>
+                    <li><a href="login.html">login</a></li>
+                </strong>                                                       
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container" >
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+
+        <div class="content">      
+            <!--FORMULÁRIO DE LOGIN-->
+            <div id="login">
+                <form method="post" action=""> 
+                    <h1>Login</h1> 
+                    <p> 
+                        <label for="nome_login">Seu nome</label>
+                        <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
+                    </p>
+
+                    <p> 
+                        <label for="email_login">Seu e-mail</label>
+                        <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. senha" /> 
+                    </p>
+
+                    <p> 
+                        <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+                        <label for="manterlogado">Manter-me logado</label>
+                    </p>
+
+                    <p> 
+                        <input type="submit" value="Logar" /> 
+                    </p>
+
+                    <p class="link">
+                        Ainda não tem conta?
+                        <a href="Tipocadastro.html">Cadastre-se</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div>
+            <footer id="rodape">
+                <p>Copyright &copy 2020 - by João Henrique, Murilo Ferreira e Vinícius Rocha</p>
+                
+            </footer>
+        </div>
+    </body>
+    </html>
