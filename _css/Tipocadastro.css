@@ -2,4 +2,8 @@
  div#imagemcadastro{
      text-align: center;
      margin-top: 30px;
+
+ }
+ div#imagemcadastro a{
+     margin: 20px;
  }
