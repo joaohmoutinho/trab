@@ -33,8 +33,7 @@ nav#btnmenu a:hover{
 }
 /*cabeçalho*/
 header#cabecalho {
-    background-color: rgb(6, 154, 199);  
-    height: 100%;
+    background-color: rgb(6, 154, 199);
     width: 100%;
     box-shadow: 5px 5px 10px -1px rgb(0, 0, 0);
 }
@@ -47,7 +46,7 @@ footer#rodape{
     padding: 1px 1px 1px auto;
     height: 50px;
     width: 100%;
-    position: absolute;
+    position: relative;
     background-color: rgb(6, 154, 199);
     box-shadow: 10px 10px 10px 13px rgb(0, 0, 0);
 }

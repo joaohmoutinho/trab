@@ -144,11 +144,12 @@ input[type="submit"]:hover{
 }
 #cadastro, 
 #login{
-  position: absolute;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 80px;
   top: 40px;
   width: 88%;   
   padding: 18px 6% 60px 6%;
-  margin: 0 0 35px 0;
   background: #f7f7f7;
   border: 1px solid rgba(147, 184, 189,0.8);
   
