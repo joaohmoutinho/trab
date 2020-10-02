@@ -36,6 +36,7 @@ header#cabecalho {
     background-color: rgb(6, 154, 199);
     width: 100%;
     box-shadow: 5px 5px 10px -1px rgb(0, 0, 0);
+    margin-bottom: 30px;
 }
 
 /* rodape*/
