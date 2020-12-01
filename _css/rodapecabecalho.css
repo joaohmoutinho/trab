@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body#corpo{
-    background-color: rgb(99, 199, 245);
+    background-color: #61c6f5;
 }
 /*configuração dos botoes de home, cadastro e contato;*/
 nav#menubtn{
@@ -8,24 +8,26 @@ nav#menubtn{
 }
 nav#btnmenu ul{
     text-transform: uppercase; 
-    position: absolute;
-    top: 7px;
-    margin: 10px auto 10px auto;
-    left: 1000px;
-}
-nav#btnmenu li {
-    display: inline-block;
-    padding: 5px;
-    margin: 0px;
-    margin-top: -15px;
-    transition: background-color 1s;
+    position: relative;
+    margin: auto 10px auto auto;
+    margin-bottom: 10px;
+    text-align: right;
+    font-family:"Times New Roman"; 
 }
 nav#btnmenu a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #000000;
+    
+}
+nav#btnmenu li{
+    display: inline-block;
+    background-color:  #069ac7;
+    padding: 5px;
+    margin: 2px;
+    transition: background-color 1s;
+    box-shadow: 1px 1px 1px black;
 }
 nav#btnmenu li:hover{
-    background-color: rgb(0, 0, 0);
+    background-color:#61c6f5;
 
 }
 nav#btnmenu a:hover{
@@ -33,10 +35,16 @@ nav#btnmenu a:hover{
 }
 /*cabeçalho*/
 header#cabecalho {
-    background-color: rgb(6, 154, 199);
-    width: 100%;
+    background-color: #069ac7;
+    width: auto;
+    padding: 30px;
     box-shadow: 5px 5px 10px -1px rgb(0, 0, 0);
-    margin-bottom: 30px;
+    margin-bottom: 3px;
+    
+}
+header#cabecalho img {
+    margin: 10px 10px 10px ;
+    text-align: center;
 }
 
 /* rodape*/
@@ -44,12 +52,12 @@ footer#rodape{
     margin-top: 30px;
     margin-left: -2px;
     margin-bottom: -100px;
-    padding: 1px 1px 1px auto;
+    padding: 30px;
     height: 55px;
-    width: 100%;
+    width: auto;
     position: relative;
     background-color: rgb(6, 154, 199);
-    box-shadow: 5px 5px 5px 6px rgb(0, 0, 0);
+    box-shadow: 1px 1px 6px rgb(0, 0, 0);
 }
 footer#rodape p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

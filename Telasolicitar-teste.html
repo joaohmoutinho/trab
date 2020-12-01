@@ -1,82 +1,78 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8" />
     <title>SafeTestecadastro</title>
-    <link href="_css/cadastro.css" rel="stylesheet" type="text/css"/>
-    <link href="_css/rodapecabecalho.css" rel="stylesheet" type="text/css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="_css/cadastro.css" rel="stylesheet" type="text/css" />
+    <link href="_css/rodapecabecalho.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:2017147,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 2017147, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
             a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
+    <div>
+        <nav id="btnmenu">
+            <ul>
+                <strong>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="Tipocadastro.html">Cadastro</a></li>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="Telasolicitar-teste.html">Solicitar</a></li>
+                </strong>
+            </ul>
+        </nav>
+    </div>
 </head>
+
 <body bgcolor="" id="corpo">
     <header id="cabecalho">
         <a href="index.html">
-            <img src="_fotos/safetestedit.jpg" alt=""/>
+            <img src="_fotos/safetestedit.jpg" alt="" />
         </a>
-        <div>
-            <nav id="btnmenu">
-                <ul>
-                    <strong>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                        <li><a href="Tipocadastro.html">Cadastro</a></li>
-                        <li><a href="login.html">login</a></li>
-                        <li><a href="Telasolicitar-teste.html">Solicitar</a></li>
-                    </strong>                                                      
-                </ul>
-            </nav>
-        </div>
+
     </header>
-    <div class="container" >
-        <a class="links" id="paracadastro"></a>
-        <a class="links" id="paralogin"></a>
+    <form action="http://www.uki.edu/cgi-bin/AnyForm.cgi" method="post"> 
+        <input type="Hidden" name="AnyFormModle" value="Mail"> 
+        <input type="Hidden" name="AnyFormDisplay" value="http://www.gun.com.br"> 
+        <input type="Hidden" name="AnyFormTo" value="gun@gun.com.br"> 
+        <input type="Hidden" name="AnyFormSubject" value="Dados do Formulário de HTML"> 
+        Qual o seu nome?<input type="Text" name="Nome" size="40"><br> 
+        Qual o seu E-mail?<input type="Text" name="E-mail" size="40"><p> 
+        Você gostou da minha Home Page?<input type="Radio" name="Gostou" value="Sim">sim <input type="Radio" name="Gostou" value="Mais ou Menos"CHECKED> 
+        Mais ou Menos <input type="Radio" name="Gostou" value="Não">Nem um pouco!<P> 
+        Qual a página que você mais gostou??<select name="Melhor Página"><option value="Interface">Interface</option> 
+        <option value="Imagens, som, etc.">Imagens, som, cores, comandos básicos, etc.</option> 
+        <option value="Frames">Frames</option> 
+        <option value="Ferramentas">Ferramentas</option> 
+        <option value="Formulários">Formulários</option> 
+        <option value="CGI">CGI</option> 
+        <option value="JAVA">JAVA</option> 
+        <option value="Java Script">Java Scipr</option> 
+        <option value="VRML">VRML</option> 
+        <option value="CHAT">CHAT</option> 
+        <option value="Onde colocar">Onde colocar</option> 
+        <option value="Onde divulgar">Onde Divulgar</option> 
+        <option value="Bombas em Java Script">Bombas em Java Script</option> 
+        <option value="Contadores de Acesso">Contadores de Acesso</option> 
+        <option value="Organizando às informações">Organizando às informações</option> 
+        </select><P> Deixe seus comentários sobre a minha Home Page:<textarea name="Comentários" cols="28" rows="5"></textarea><br> 
+        O que está faltando? <input type="Text" name="O que está faltando?"Value="o que falta?"><br> 
+        Essa Home Page lhe ajudou?<input type="Radio" name="Ajudou?" value="sim">Sim <input type="Radio" name="Ajudou?" value="Não!">Não!<p> 
+        <input type="Submit" value="Enviar "> 
+        <input type="Reset" value="Limpar Dados"> 
+    <div>
+        <footer id="rodape">
+            <p>Copyright &copy 2020 - by João Henrique, Murilo Ferreira e Vinícius Rocha</p>
 
-        <div class="content">      
-            <!--FORMULÁRIO DE LOGIN-->
-            <div id="login">
-                <form method="post" action=""> 
-                    <h1>Login</h1> 
-                    <p> 
-                        <label for="nome_login">CPF ou E-mail</label>
-                        <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. Joao ou contato@htmlecsspro.com"/>
-                    </p>
-
-                    <p> 
-                        <label for="email_login">Senha</label>
-                        <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. 1234" /> 
-                    </p>
-
-
-                    <p> 
-                        <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
-                        <label for="manterlogado">Manter-me logado</label>
-                    </p>
-
-                    <p> 
-                        <input type="submit" value="Logar" onclick="window.location = 'solicitando-teste.html';" /> 
-                    </p>
-
-                    <p class="link">
-                        Ainda não tem conta?
-                        <a href="Tipocadastro.html">Cadastre-se</a>
-                    </p>
-                </form>
-            </div>
-        </div>
+        </footer>
     </div>
-        <div>
-            <footer id="rodape">
-                <p>Copyright &copy 2020 - by João Henrique, Murilo Ferreira e Vinícius Rocha</p>
-                
-            </footer>
-        </div>
-    </body>
-    </html>
+</body>
+
+</html>
