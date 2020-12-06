@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avaliação do serviço</title>
     <link href="_css/rodapecabecalho.css" rel="stylesheet" type="text/css" />
+    <link href="_css/inicio.css" rel="stylesheet" type="text/css" />
+    <link href="_css/avalia.css" rel="stylesheet" type="text/css" />
+    <script src="funcoes.js"></script>
     <script>
         (function (h, o, t, j, a, r) {
             h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
@@ -31,19 +34,49 @@
     </div>
 </head>
 
-<body>
+<body bgcolor="" id="corpo">
     <header id="cabecalho">
         <a id="imagem" href="index.html"><img src="_fotos/safetestedit.jpg" alt="" /> </a>
-
-
     </header>
 
+    
+        <fieldset id="id">
+            <legend>Avalie-nos, sua opinião é importante:</legend>
+
+            <p id="nome"><label for="cNome">Nome: <br /> </label>
+                <input type="text" name="tNome" id="cNome" size="40" maxlength="20" placeholder="Seu nome" /></p>
+
+            <p id="telefone"><label for="cTele"> Telefone: <br /> </label>
+                <input type="text" name="tTele" id="cTele" size="40" maxlength="30" placeholder="Seu telefone" /></p>
+
+            <p id="email"><label for="cMail">E-mail: <br /> </label>
+                <input type="email" name="tTele" id="cMail" size="40" maxlength="50" placeholder="Seu E-mail" /></p>
+
+            <fieldset> <legend>Quantas estrelas merecemos?</legend>
+            <a href="javascript:void(0)" onclick="Avaliar(1)">
+                <img src="img/star0.png" id="s1"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(2)">
+                <img src="img/star0.png" id="s2"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(3)">
+                <img src="img/star0.png" id="s3"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(4)">
+                <img src="img/star0.png" id="s4"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(5)">
+                <img src="img/star0.png" id="s5"></a>
+            <p id="rating">0</p>
+        </fieldset>
+        <a href="obrigado.html"><button>Enviar avaliação</button></a>
+        </fieldset>
+   
 </body>
 <div>
     <footer id="rodape">
         <p>Copyright &copy 2020 - by João Henrique, Murilo Ferreira e Vinícius Rocha</p>
 
-    </footer>
     </footer>
 </div>
 

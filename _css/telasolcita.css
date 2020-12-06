@@ -1,0 +1,59 @@
+@charset "utf-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    width: 50%;
+    display: block;   
+}
+
+.form div {
+    margin-top: 10px;
+}
+
+.form label, .form input {
+    display: block;
+    width: 80%;
+}
+
+.form .button {
+    display: block;
+    margin-top: 10px;
+}
+
+.list {
+    width: 100%;
+    margin-top: 30px;
+}
+body > table {
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+}
+table.list {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+.btn_ed {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn_edit {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}

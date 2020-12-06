@@ -1,0 +1,20 @@
+@charset "utf-8";
+body
+
+form{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: auto;
+    width: auto;
+    height: auto;
+   
+}
+fieldset#div{
+    margin: 10px 10px 10px 10px;
+    text-align: right;
+}
+fieldset#btnenviar{
+    margin: 10px 10px 10px 10px;
+}
